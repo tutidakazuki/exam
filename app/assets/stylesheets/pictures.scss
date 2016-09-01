@@ -1,3 +1,57 @@
 // Place all the styles related to the pictures controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  margin: 0;
+  width: 100%;
+  background-size: cover;
+  background-color:#F5F5F5;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  background-color:white;
+  height: 54px;
+  font-size: 15px;
+  border-bottom: solid 1px #DDDDDD;
+}
+
+header ul {
+  margin: 0 auto;
+  list-style: none;
+}
+
+header ul a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #222222;
+}
+
+header ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header li:first-child{
+  float: left;
+  width: auto;
+}
+
+header li {
+  float: right;
+  width: auto;
+}
+
+header a:hover{
+  text-decoration: none;
+}
+
+.container{
+  background:#F5F5F5;
+  
+}
