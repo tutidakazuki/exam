@@ -46,3 +46,8 @@ group :development, :test do
 end
 
 gem 'twitter-bootstrap-rails'
+
+gem 'therubyracer', platforms: :ruby
+gem 'rails_admin'
+
+gem 'cancan'
